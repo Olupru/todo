@@ -63,6 +63,15 @@ button {
     border-radius: 50px;
 }
 
+@media screen and (max-width: 540px) {
+    button {
+        width: 50px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+}
+
 ul li {
      list-style: none;
      font-size: 18px;
